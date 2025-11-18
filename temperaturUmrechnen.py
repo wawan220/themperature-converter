@@ -12,7 +12,7 @@ mu=modul_umrechnen
 #    [mu.fareinheitInCelsius, "Fahreinheit", "Celsius"],
 #    [mu.fareinheitInKelvin, "Fahreinheit","Kelvin"]
 #         ]
-#
+
 
 print("gebe bitte ein was du berechnen möchtest: \n", 
                   "(1) Celsius - Kelvin \n",
@@ -28,8 +28,8 @@ if eingabe > 0 and eingabe <= 6:
     print("gebe die zu umrechnende Themperatur an:")
     temperatur=float(input("> "))
 #
-  #  print(f" Umrechnung von {umrech[eingabe-1][1]} in {umrech[eingabe-1][2]} \n {umrech[eingabe-1][1]}: \t{temperatur}")
-  #  print(f"{umrech[eingabe-1][2]}: \t{umrech[eingabe-1][0](temperatur)}")
+   # print(f" Umrechnung von {umrech[eingabe-1][1]} in {umrech[eingabe-1][2]} \n {umrech[eingabe-1][1]}: \t{temperatur}")
+   # print(f"{umrech[eingabe-1][2]}: \t{umrech[eingabe-1][0](temperatur)}")
 
  
     if eingabe == 1:
