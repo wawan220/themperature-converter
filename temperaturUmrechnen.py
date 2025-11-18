@@ -33,22 +33,22 @@ if eingabe > 0 and eingabe <= 6:
 
  
     if eingabe == 1:
-        print(f" Umrechnung von Celsius in Kelvin \n Celsius: \t{temperatur}")
+        print(f" Umrechnung von Celsius in Kelvin \nCelsius: \t{temperatur}")
         print(f"Kelvin: \t{mu.celsiusInKelvin(temperatur)}")
     elif eingabe == 2:
-        print(f" Umrechnung von Celsius in Fareinheit \n Celsius: \t{temperatur}")
+        print(f" Umrechnung von Celsius in Fareinheit \nCelsius: \t{temperatur}")
         print(f"Fareinheit:\t{mu.celsiusInFareinheit(temperatur)}")
     elif eingabe == 3:
-        print(f" Umrechnung von Kelvin in Celsius \n Kelvin: \t{temperatur}")
+        print(f" Umrechnung von Kelvin in Celsius \nKelvin: \t{temperatur}")
         print(f"Celsius: \t{mu.kelvinInCelsius(temperatur)}")
     elif eingabe == 4:
-        print(f" Umrechnung von Kelvin in Fareinheit \n Kelvin: \t{temperatur}")
+        print(f" Umrechnung von Kelvin in Fareinheit \nKelvin: \t{temperatur}")
         print(f"Fareinheit: \t{mu.kelvinInFareinheit(temperatur)}")
     elif eingabe == 5:
-        print(f" Umrechnung von Fareinheit in Celsius \n Fareinheit: \t{temperatur}")
+        print(f" Umrechnung von Fareinheit in Celsius \nFareinheit: \t{temperatur}")
         print(f"Celsius: \t{mu.fareinheitInCelsius(temperatur)}")
     elif eingabe == 6:
-        print(f" Umrechnung von Fareinheit in Kelvin \n Fareinheit: \t{temperatur}")
+        print(f" Umrechnung von Fareinheit in Kelvin \nFareinheit: \t{temperatur}")
         print(f"Kelvin: \t{mu.fareinheitInKelvin(temperatur)}")
     else :
         print("!!!ungültige eingabe bitte starte erneut!!!")
