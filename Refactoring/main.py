@@ -2,7 +2,6 @@ import modul_umrechnen
 
 mu=modul_umrechnen
 
-
 formelsammlung=[mu.celsius_in_kelvin , 
                 mu.celsius_in_fahreinheit , 
                 mu.kelvin_in_celsius , 
