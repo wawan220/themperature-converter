@@ -1,13 +1,13 @@
-import modul_umrechnen
+import modul_temperatur_umrechnen
 
-mu=modul_umrechnen
+mtu=modul_temperatur_umrechnen
 
-formelsammlung=[mu.celsius_in_kelvin , 
-                mu.celsius_in_fahreinheit , 
-                mu.kelvin_in_celsius , 
-                mu.kelvin_in_fahreinheit , 
-                mu.fahreinheint_in_celsius , 
-                mu.fahreinheint_in_kelvin 
+formelsammlung=[mtu.celsius_in_kelvin , 
+                mtu.celsius_in_fahreinheit , 
+                mtu.kelvin_in_celsius , 
+                mtu.kelvin_in_fahreinheit , 
+                mtu.fahreinheint_in_celsius , 
+                mtu.fahreinheint_in_kelvin 
                 ]
 
 aufgabe=int(input("gebe eine Aufgabe ein z.B 1,2,3,4,5,6 usw....???"))
