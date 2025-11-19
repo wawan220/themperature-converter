@@ -41,4 +41,4 @@ if aufgabe =="5":
     summe= fahreinheint_in_celsius(zahl1)
 if aufgabe =="6":
     summe= fahreinheint_in_kelvin(zahl1)
-print (summe)
+print (f"dein ergebnis ist: {summe}")
